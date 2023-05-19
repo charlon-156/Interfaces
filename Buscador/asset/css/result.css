@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap');
+
 * {
     font-family: 'Inter', sans-serif;
 }
@@ -16,22 +16,20 @@ footer {
 }
 
 @media (max-width: 700px) {
-    img {
-        margin-top: 40%;
-        width: 70%;
+    
+    #img-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     form, #sec-1  {
         width: 25rem;
     }
 
-    main {
+    section {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    * {
-        font-weight: 500;
     }
 }
