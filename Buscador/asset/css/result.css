@@ -6,7 +6,11 @@
 }
 
 main{ 
-    margin-top: 80px;
+    margin-top: 40px;
+}
+
+#accordionFlushExample{
+    height: 4%;
 }
 
 #load {
@@ -25,7 +29,7 @@ footer {
     left:0;
     background-color: #d9d9d9;
     width: 100%;
-    padding-top: 16px;
+    padding-top: 8px;
     text-align: center;
     color: #7a7878;
 }
